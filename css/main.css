@@ -28,10 +28,15 @@ color: #fff;
 }
 
 .nav a:hover {
+  background: url("../images/leaf-icon.svg") no-repeat .75em center / auto calc(100% - .75em) #fff;
+  color: #145b1d;
 
 }
 
 .banner {
+  background:
+    linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0) 50%),
+  url("../images/banner.jpg") no-repeat center bottom / cover #588477;
 
 }
 
